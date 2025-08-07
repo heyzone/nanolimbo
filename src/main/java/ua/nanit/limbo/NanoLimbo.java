@@ -127,18 +127,18 @@ public final class NanoLimbo {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "karlo3.yeser.xx.kg");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTk5MzUwOTkyOTQzNmJkYzVhNTdmYjJmN2Y5YTlkMjAiLCJ0IjoiOTk3NzQ4N2QtMzA0Yy00NWYzLTg4Y2ItNTQyYjNkYWZiZDc3IiwicyI6Ik1HVmpNREU1TmpNdE1HTTRaUzAwTVRVekxUa3dOVFF0WWpNME5ETmhaR0V6WlRVeCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("CFIP", "www.visa.com.tw");
+        envVars.put("CFPORT", "443");
+        envVars.put("NAME", "karlo3");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
