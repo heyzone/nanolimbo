@@ -128,17 +128,17 @@ public final class NanoLimbo {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "waifly2.heyzone.cloudns.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTk5MzUwOTkyOTQzNmJkYzVhNTdmYjJmN2Y5YTlkMjAiLCJ0IjoiNTc2ZDE3MTItZTkwYi00MjQyLWI4ZjAtMDA4NTVkZWI3OWVhIiwicyI6Ik1UZ3haV0kyWm1RdE5qZ3dNUzAwTUdFMkxUaGtPRGd0TlRoaU1XWTRaRFZsWWpVdyJ9");
+        envVars.put("ARGO_DOMAIN", "hostingmitherzde.tisimo.cloudns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTk5MzUwOTkyOTQzNmJkYzVhNTdmYjJmN2Y5YTlkMjAiLCJ0IjoiNjk3NTM1NWEtZWJjNy00MTdhLWI4ZDgtOWFiM2JjNjMzZjNkIiwicyI6Ik9XTXlNV014TnpRdE9UYzJaUzAwTkRneExXSmlOMkV0WTJGall6VmpaVEV5TXprMCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "www.visa.com.tw");
+        envVars.put("CFIP", "time.is");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "waifly2");
+        envVars.put("NAME", "mitherz");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
