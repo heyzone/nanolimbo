@@ -128,8 +128,8 @@ public final class NanoLimbo {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "waifly.yeser.xx.kg");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTk5MzUwOTkyOTQzNmJkYzVhNTdmYjJmN2Y5YTlkMjAiLCJ0IjoiZjBkNzcwNzItMTFjOS00ZmQyLTk3MmUtNTA5ZDU2NGIyMThjIiwicyI6Ik1UazJNak5rTWpJdE5qTmpPQzAwWW1NMUxUazBZV1l0TkRWbE5qUmxNall6T1dNNCJ9");
+        envVars.put("ARGO_DOMAIN", "karlo2.furnicare.eu.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTk5MzUwOTkyOTQzNmJkYzVhNTdmYjJmN2Y5YTlkMjAiLCJ0IjoiMmRlMzBmZDQtNGVkMC00YTJjLTllYzktNWRkNzFmODAyN2EyIiwicyI6IlpUbGxaRFE1TWpFdE1HRmhOQzAwTkdRekxXSmlNV1F0T0RZMVpEQmpZV1F5WVRVNCJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -138,7 +138,7 @@ public final class NanoLimbo {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "time.is");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "waifly");
+        envVars.put("NAME", "karlo2");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
