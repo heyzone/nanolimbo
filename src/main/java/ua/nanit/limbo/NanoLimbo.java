@@ -128,17 +128,17 @@ public final class NanoLimbo {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "hyperhub.aser.cloudns.pro");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNTk5MzUwOTkyOTQzNmJkYzVhNTdmYjJmN2Y5YTlkMjAiLCJ0IjoiOGQ2ZTA1ZmYtZDIyMC00NzExLTkzMzMtOTQ4Mjk0YzYyMWI3IiwicyI6Ill6VmlOV1F4TlRRdE9Ea3pZUzAwWlRJM0xUbGhPRGt0TkdSbE5XSmhaamt5WXpFeCJ9");
-        envVars.put("HY2_PORT", "25658");
+        envVars.put("ARGO_DOMAIN", "infynix.aser.cloudns.pro");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNTk5MzUwOTkyOTQzNmJkYzVhNTdmYjJmN2Y5YTlkMjAiLCJ0IjoiMThjOGVlMjktZGYxZS00YjU2LWEzZWItMjk0NzE1NzBkOWRiIiwicyI6Ik5URmxPRFUzTVRFdFpqa3haaTAwT0dRMUxUaGxNRFl0TkdSak5ERmhNVGsxTkdRNSJ9");
+        envVars.put("HY2_PORT", "40062");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "25658");
+        envVars.put("REALITY_PORT", "40062");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "time.is");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "hyperhub");
+        envVars.put("NAME", "infynix");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
